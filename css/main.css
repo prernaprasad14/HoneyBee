@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+/*color scheme
+light:#F5B041;
+dark: #8B4B53;
+headings: #1E1212*/
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	line-height: 32px;
+	scroll-behavior: smooth;
+}
+.main{
+	max-width: 1260px;
+	margin: auto;
+} 
+.logo a img{
+	display: inline-block;
+	margin-top: 10px;
+	/*width: 140px;
+	height: 45px;*/
+	width: 120px;
+	height: 61px;
+	position:absolute;
+}
+#nav-bg{
+	background-color: #ffffff;
+	height:  80px;
+	width: 100%;
+	position: absolute;
+	top:0; 
+	box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+}
+/*NAVIGATION*/
+.nav ul{
+	margin-top: 15px;
+	float: right;
+	list-style-type: none;
+	font-style: bold;
+	font-size: 22px;
+	position: relative;
+}
+.nav ul li{
+	padding-top: 12px;
+	display: inline-block;
+}
+.nav ul li a{
+	text-decoration: none;
+	padding:6px 10px;
+	color:#F5B041;
+}
+.nav ul li a:hover{
+	color:#965C5B;
+}
+/*FOOTER*/
+footer{
+	background-color: #8B4B53;
+	font-size: 14px; 
+}
+#wrapper{
+	position: relative;
+	margin-left:260px;
+}
+footer div{
+	margin:20px 80px ; 
+}
+.logo-w{
+	max-width: 120px;
+	margin-top: 40px;
+	padding: 10px 25px;
+	float: left ;	
+}
+.logo-w a img{
+	width: 120px;
+	height: 61px; 
+}
+#foot_list{
+	padding: 10px 19px;
+	margin-top: 25px;
+    float: left;
+}
+#foot_list ul{
+	list-style-type: none;
+}
+#foot_list li{	
+	text-align: center;
+	padding: 5px  0;
+	color: #fff;
+}
+#foot_list li a{
+	color: #fff;
+	text-decoration: none;
+}
+#foot_list ul li a:hover,
+#foot_list ul li a:active,
+#foot_list ul li a:focus{
+	text-decoration: underline;
+}
+#foot_list ul li i{
+	padding: 0 3px;
+}
+#foot_form{
+	margin-left: 80px;
+	float: left;
+	padding: 10px 0;
+}
+#foot_form form input{
+    display:block;
+	margin-top: 4px;
+	border-radius: 4px;
+	width: 170px;
+	height: 30px;
+	border:1px solid #ffffff;	 
+}
+#foot_form label{
+	color: #ffffff;
+}
+#foot_form #form_btn{
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0);
+	width: 90px;
+	padding:0 16px;
+	border-radius: 4px;
+	border:1px solid  #ffffff;
+	position: relative;
+	left: 25%;
+}
+#foot_form #form_btn:hover,
+#foot_form #form_btn:focus,
+#foot_form #form_btn:active{
+	color: #8B4B53;
+	background-color:#ffffff;
+}
+#rights, #rights a{
+	clear: both;
+	margin: 0;
+	font-size: 12px; 
+	line-height: 10px;
+	color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+	text-decoration: none;
+}
+#rights a :hover,
+#rights a :active,
+#rights a :focus{
+	text-decoration: underline;
+}
+@media only screen and (max-width: 600px){
+		#wrapper{
+		/* footer contents wrapper */
+		margin-left:80px;
+	}
+}
