@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/blog.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Blogs | HoneyBee</title>
+
+</head>
+<body>
+	<!--header-->
+	<header>
+		<div id="nav-bg"></div>
+		<div class=main>
+			<div class="logo">		
+				<a href="index.html"><img src="img/logo-1.png"></a>	
+			</div>
+			<div class="nav">	
+				<ul>		
+					<li><a href="products.html">Products</a></li>
+					<li><a href="#find-us">Find us</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="#about">About us</a></li>					
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="video">
+		<h2>Watch the video to know what goes into bread making</h2>
+		<iframe src="" title="video" ></iframe>
+	</div><section class="posts">
+        <div class="post">
+            <a href="#post1">
+                <img src="img/img_post1.jpg" alt="img_post1">
+                <div class="content">
+                    <h2>Bakery store Visit</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor 
+                    tincidunt vitae sed lectus. Nullam ex elit, tempus eget tortor sed, gravida blandit augue.
+                    Suspendisse potenti. Proin in mauris consequat, condimentum justo sed.
+                    </p>
+                </div>  
+            </a>
+        </div>
+        <div class="post">
+            <a href="#post2">
+                <img src="img/img_post2.jpg" alt="img_post2">
+                <div class="content">
+                    <h2>Magic of bread making</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor 
+                    tincidunt vitae sed lectus. Duis sagittis ex vel viverra eleifend. Vestibulum in luctus felis.
+                    Vivamus in fringilla metus. Proin in mauris consequat, condimentum justo sed.
+                    </p>
+                </div>  
+            </a>
+        </div>
+        <div class="post">
+            <a href="#post3">
+                <img src="img/img_post3.jpg" alt="img_post3">
+                <div class="content">
+                    <h2>Homemade recipes</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor 
+                    tincidunt vitae sed lectus. Nullam ex elit, tempus eget tortor sed, gravida blandit augue.
+                    Suspendisse potenti. Duis sagittis ex vel viverra eleifend. Vestibulum in luctus felis.
+                    </p>
+                </div>  
+            </a>
+        </div>
+    </section> 
+    <div id="vertical"></div>
+    <aside >
+        <h3>You may also like</h3>
+        <ul>
+            <li>
+                <a href="#related1">
+                    <h4>First related post</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor</p> 
+                </a>
+            </li>
+            <li>
+                <a href="#related2">
+                    <h4>Second related post</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor</p> 
+                 </a>
+            </li>
+            <li>
+                <a href="#related3">
+                    <h4>Third related post</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor</p> 
+                </a>
+            </li>
+            <li>
+                <a href="#related4">
+                    <h4>Fourth related post</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu vel elit tempor</p> 
+                </a>
+            </li>
+        </ul>
+    </aside>
+	<!--footer-->
+	<footer>
+		<div id="wrapper">
+			<div class="logo-w">
+				<a href="index.html" ><img src="img/logo-1-w.png"></a>
+			</div>
+			<div id="foot_list">
+				<ul>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Events</a></li>
+					<li><i class="fa fa-phone"></i> 011-0000000000</li>
+					<li><i class="fa fa-envelope"></i>mail@honeybee.com</li>	
+				</ul>
+			</div>	
+			<div id="foot_form">
+				<form action="" method="GET">
+					<label>Write to us</label>
+					<input type="email" name="email" required="true" placeholder="Enter e-mail">
+					<input type="textarea" name="textmsg" required="true" placeholder="Your message here" maxlength="200"></textarea>
+					<input type="submit" name="send" value="Send" id="form_btn">
+				</form>
+			</div>
+		</div>
+		<div id="rights">
+			<a href="#">Terms and Conditions</a>
+			<p>Copyright HoneyBee©<span id="curryear"><span></p>
+		</div>
+	
+	</footer>
+		
+	<!--scripts-->
+	<script type="text/javascript"> 
+		const d=new Date();
+		document.getElementById("curryear").innerHTML = d.getFullYear();
+	</script>
+
+</body>
+</html>

@@ -74,6 +74,9 @@ footer div{
 	width: 120px;
 	height: 61px; 
 }
+footer{
+	clear:both;
+}
 #foot_list{
 	padding: 10px 19px;
 	margin-top: 25px;

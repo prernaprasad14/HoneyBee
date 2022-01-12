@@ -1,0 +1,130 @@
+header {
+	z-index: -1;
+	background-repeat: no-repeat;	
+	height:100vh;
+    line-height:32px;
+	background-image:url("../img/bread_with_icing.jpg");
+	background-position:center;
+	background-size: cover;
+}
+.video {
+	padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.video h2{ display: block; 
+    margin: 30px 0px;
+    text-align: center;
+}
+.video iframe{
+    margin: auto;
+    display: block; 
+    width:560px;
+    height:315px;
+}
+aside{
+    max-width: 20vw;
+    float:right;
+    margin-right: 130px;
+    padding:10px;
+}
+aside h3{
+    text-decoration: underline;
+}
+aside ul li{
+    list-style-type: none;
+    margin: 5px 0;
+}
+aside ul li a {
+    color: #1E1212;
+    text-decoration: none;
+}
+aside ul li  :hover,
+aside ul li  :active,
+aside ul li  :focus{
+    color: #8B4B53;
+}
+#vertical{
+    display: block;
+    float: left;
+    margin-left: 60px;
+    border-left: 2px solid #8b4b5373;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.posts{
+    max-width:55vw;
+    text-align: justify;
+    display: block;
+    float: left;
+    margin: auto;
+    margin-left: 130px;
+    margin-bottom: 0px;
+}
+.posts .post{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.posts .post a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #1E1212;
+}
+.posts .post .content {
+    margin: auto;
+}
+
+.posts .post .content p{
+    color: #000000;
+}
+.posts .post a:hover{
+    color:#8B4B53;
+}
+.posts .post img{
+    float: left;
+    margin: auto;
+    width: 230px;
+    height: 150px;
+    padding: 5px 15px;
+}
+@media screen and (max-width: 1000px) {
+	.video{
+        display: block;
+		margin: auto;
+		width: 340px;
+	}
+    .posts{
+        margin: 20px 20px;
+        max-width: 100vw;
+    }
+    .posts .post h2{
+        font-size: 22px;
+        text-align: left;
+    }
+    .posts .post p{
+        font-size: 16px;
+    }
+    aside{
+        margin: 20px 20px;
+        max-width: 100vw;
+    }
+    #vertical{
+        border-left: 0 solid #fff;
+        border-top: 2px solid  #8B4B5373;
+        margin-bottom: 0;
+        margin-left: 50px;
+        height: 0;
+        width:80vw;
+    }
+}
+@media screen and (max-width: 600px) {
+	.video{max-width: 100vw;
+        display: block;
+		margin: auto;
+		width: 340px;
+	}
+	.video iframe{
+		width:350px;
+		height: 250px;
+	}
+}
+
