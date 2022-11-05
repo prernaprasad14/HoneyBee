@@ -1,0 +1,36 @@
+body, *{
+    background: none;
+}
+#about-us{
+    display: block;
+    margin: auto;
+    top:120px;
+    width: 600px;
+    padding-top: 140px;
+    padding-left:30px;
+    height: 70vh;
+    color: black;
+}
+#about_head{
+    color: #1E1212;
+}
+
+#about-us a{
+    border: none;
+    background-color: #F5B041;
+    margin:auto;
+    margin-top: 5px;
+    display :inline-block;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #1E1212;
+    border-radius: 5px;
+}
+#about-us a:hover{
+    background-color:  #8B4B53;
+    color:#f8f5ef;
+}
+#about-us button{
+    padding: 2px;
+    margin: 2px;
+}

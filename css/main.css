@@ -17,10 +17,8 @@ headings: #1E1212*/
 .logo a img{
 	display: inline-block;
 	margin-top: 10px;
-	/*width: 140px;
-	height: 45px;*/
-	width: 120px;
-	height: 61px;
+	width: 100px;
+	height: 52px;
 	position:absolute;
 }
 #nav-bg{
@@ -29,7 +27,7 @@ headings: #1E1212*/
 	width: 100%;
 	position: absolute;
 	top:0; 
-	box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+	box-shadow: 0 4px 10px rgba(0,0,0,0.28);
 }
 /*NAVIGATION*/
 .nav ul{
@@ -37,7 +35,7 @@ headings: #1E1212*/
 	float: right;
 	list-style-type: none;
 	font-style: bold;
-	font-size: 22px;
+	font-size: 18px;
 	position: relative;
 }
 .nav ul li{
@@ -75,7 +73,7 @@ footer div{
 	height: 61px; 
 }
 footer{
-	clear:both;
+	clear:both;	
 }
 #foot_list{
 	padding: 10px 19px;
@@ -147,6 +145,10 @@ footer{
 #rights a :active,
 #rights a :focus{
 	text-decoration: underline;
+}
+::placeholder{
+	color:rgb(236, 236, 236);
+	padding-left: 3px;
 }
 @media only screen and (max-width: 600px){
 		#wrapper{
